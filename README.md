@@ -119,7 +119,7 @@ To leverage the engagement insights effectively, we recommend the following acti
   
 - **Reinforce Positive Emotional Connections:** The prevalence of positive sentiment, particularly the "heart" reaction, underscores the importance of emotional resonance. Continue to promote content that evokes positive emotions, especially within high-engagement categories.
 
-Check detailed project presentation [here]
+Checkout detailed project presentation [here](Presentation_Social_Buzz.pptx)
 
 # Summary
 

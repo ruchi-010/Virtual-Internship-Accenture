@@ -72,3 +72,5 @@ Based on the client's brief, we've identified three key datasets from the seven 
                  IF(A2>=TIME(17,0,0), "Evening", ""))))
         ```
         *(Note: `A2` is an example of cell reference containing the time value.)*
+
+**Please refer to the transformed data Excel file to explore the detailed analysis, which includes pivot tables and further visuals.** [here]

@@ -27,4 +27,48 @@ A Data Analyst acts as a crucial bridge connecting the business and its data.
 -   **Integer** (data type): Numbers without fractions.
 
 # Data Model
+![Virtual-Internship-Accenture](Data_Model_Image.jpg)
 
+Based on the client's brief, we've identified three key datasets from the seven provided: the content table, the reaction table, and the reaction type table.
+
+# Data Cleaning
+**Data Cleaning Steps:**
+
+1.  **Handling Missing Values:**
+    * Removed rows with missing values.
+    * Specifically, removed rows with missing values in the `reaction_type` column of the `Reactions` table (achieved using the "remove empty" function in Power Query).
+
+2.  **Handling Irrelevant Columns:**
+    * Removed columns not relevant to the task, such as `URL` and `USER ID`.
+
+3.  **Renaming Confusing Columns:**
+    * Addressed ambiguity by renaming the `type` column in each table: one to `Content Type` and the other two to `Reaction Type`.
+
+4.  **Standardizing Inconsistent Values:**
+    * Ensured uniformity in the `Content Category` column by standardizing values with inconsistent capitalization (e.g., "News" and "news").
+
+5.  **Merging Datasets:**
+    * Integrated data using merge queries in Power Query.
+
+6.  **Creating Pivot Tables:**
+    * Generated pivot tables with `Category` as rows and `Score` as values.
+    * Applied "TOP N" filters on the row values.
+
+7.  **Splitting Date and Time:**
+    * Separated the datetime column into distinct date and time columns using the "Text to Columns" feature (Data tab).
+
+8.  **Creating Time Buckets:**
+    * Categorized time into the following intervals within a new `Past Time` column, likely using a conditional function like IF:
+        * Morning: 05:00 - 11:59
+        * Afternoon: 12:00 - 16:59
+        * Evening: 17:00 - 23:59
+        * Post Midnight: 00:00 - 04:59
+
+    * The underlying logic for this categorization appears to be:
+        ```
+        IF(AND(A2>=TIME(0,0,0), A2<TIME(5,0,0)), "Post Midnight",
+           IF(AND(A2>=TIME(5,0,0), A2<TIME(12,0,0)), "Morning",
+              IF(AND(A2>=TIME(12,0,0), A2<TIME(17,0,0)), "Afternoon",
+                 IF(A2>=TIME(17,0,0), "Evening", ""))))
+        ```
+        *(Note: `A2` is an example of cell reference containing the time value.)*

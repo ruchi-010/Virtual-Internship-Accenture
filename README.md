@@ -84,25 +84,25 @@ As per the client's brief and our analysis, the data modeling process involved i
 
 The analysis of social buzz engagement reveals several key insights:
 
-1. Content Category Performance:
+**1. Content Category Performance:**
 
 Top 5 Categories by Popularity: Animal-related content significantly leads in popularity with over 74,000 engagements, followed by science, healthy eating, technology, and food. This suggests a strong audience interest in animal-related topics.
 
-2. Optimal Engagement Timing:
+**2. Optimal Engagement Timing:**
 
 Peak Activity Times: User activity peaks in the morning (around 7,331 posts) and evening (around 7,147 posts). These are identified as the most active times for content sharing, indicating optimal windows for maximizing reach and engagement.
 
-3. Sentiment and Reaction Insights:
+**3. Sentiment and Reaction Insights:**
 
 Overall Positive Sentiment: Despite a significant 31% negative sentiment, the majority (56%) of user reactions are positive. Neutral reactions account for 13%.
 Most Popular Reaction Type: The "heart" reaction is the most popular, indicating predominantly favorable emotional responses.
 Alignment of Reactions and Content: This positive reaction type aligns with the high engagement seen in animal and emotional content categories.
 
-4. Content Type Sharing:
+**4. Content Type Sharing:**
 
 Most Shared Content Type: Photos are the most frequently shared content type (around 6,589 shares), closely followed by videos (around 6,245 shares), GIFs (around 6,079 shares), and audio (around 5,660 shares). This highlights the preference for visual content among users.
 
-5. Popular Timing to Post Content:
+**5. Popular Timing to Post Content:**
 
 Optimal Posting Windows: Similar to overall activity, the most popular times to post content align with morning(05:00-11:59) and evening hours(17:00-23:59). Post midnight and afternoon show lower popularity for posting.
 
@@ -118,3 +118,9 @@ To leverage the engagement insights effectively, we recommend the following acti
 - **Leverage Visual Content:** Focus on creating high-quality photo and video content, as these formats are shared most frequently. Explore engaging storytelling through visuals to capitalize on this user preference.
   
 - **Reinforce Positive Emotional Connections:** The prevalence of positive sentiment, particularly the "heart" reaction, underscores the importance of emotional resonance. Continue to promote content that evokes positive emotions, especially within high-engagement categories.
+
+Check detailed project presentation [here]
+
+# Summary
+
+To summarize, the insights derived from this data analysis provide a valuable foundation for shaping our content strategy. Prioritizing emotional and educational content, alongside optimizing posting times and visual content, presents significant opportunities for growth and deeper audience connection. Continuous monitoring and adaptation will be crucial for sustained success.

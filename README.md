@@ -1,5 +1,4 @@
-# Virtual-Internship-Accenture
-![Virtual-Internship-Accenture](Image_Dashboard.jpg) 
+# Virtual-Internship-Accenture 
 ![Virtual-Internship-Accenture](Certificate_Of_Completion_Image.jpg)
 
 # Project Overview
@@ -74,3 +73,48 @@ Based on the client's brief, we've identified three key datasets from the seven 
         *(Note: `A2` is an example of cell reference containing the time value.)*
 
 **Please refer to the transformed data Excel file to explore the detailed analysis, which includes pivot tables and further visuals.** [here](Virtual-Internship-Accenture/transformed_data.xlsx)
+
+# Data Modeling
+
+As per the client's brief and our analysis, the data modeling process involved integrating three key datasets: `content`, `reaction`, and `reaction type`. To achieve this, the `content` table was joined with the `reaction` table using the `contentId` as the key. Subsequently, the `reaction type` table was joined with the `reaction` table using the `reaction type` column. This structure establishes the `reaction` table as the central fact table, with `content` and `reaction type` serving as dimension tables, providing descriptive attributes for the reactions.
+
+# Data Analysis and Uncovering Insights
+
+![Virtual-Internship-Accenture](Image_Dashboard.jpg)
+
+The analysis of social buzz engagement reveals several key insights:
+
+1. Content Category Performance:
+
+Top 5 Categories by Popularity: Animal-related content significantly leads in popularity with over 74,000 engagements, followed by science, healthy eating, technology, and food. This suggests a strong audience interest in animal-related topics.
+
+2. Optimal Engagement Timing:
+
+Peak Activity Times: User activity peaks in the morning (around 7,331 posts) and evening (around 7,147 posts). These are identified as the most active times for content sharing, indicating optimal windows for maximizing reach and engagement.
+
+3. Sentiment and Reaction Insights:
+
+Overall Positive Sentiment: Despite a significant 31% negative sentiment, the majority (56%) of user reactions are positive. Neutral reactions account for 13%.
+Most Popular Reaction Type: The "heart" reaction is the most popular, indicating predominantly favorable emotional responses.
+Alignment of Reactions and Content: This positive reaction type aligns with the high engagement seen in animal and emotional content categories.
+
+4. Content Type Sharing:
+
+Most Shared Content Type: Photos are the most frequently shared content type (around 6,589 shares), closely followed by videos (around 6,245 shares), GIFs (around 6,079 shares), and audio (around 5,660 shares). This highlights the preference for visual content among users.
+
+5. Popular Timing to Post Content:
+
+Optimal Posting Windows: Similar to overall activity, the most popular times to post content align with morning(05:00-11:59) and evening hours(17:00-23:59). Post midnight and afternoon show lower popularity for posting.
+
+# Business Recommendations
+To leverage the engagement insights effectively, we recommend the following actions:
+
+- **Prioritized Allocation for High-Engagement Themes:** Dedicate a significant portion of content creation and promotion efforts to emotional and educational content, recognizing their broad appeal and potential for strong engagement. Explore diverse formats and angles within these themes:
+  - **Emotional Content:** Focus on content that evokes feelings such as joy (as seen with the popularity of "heart" reactions and potentially animal content or food related content), curiosity, nostalgia, or inspiration.
+  - **Educational Content:** Create content that informs, explains, teaches, or shares knowledge, aligning with the popularity of science and technology.
+
+- **Optimize Content Distribution Timing:** Schedule the primary release of content during morning and evening hours, aligning with peak user activity. Further refine posting times based on the specific content category to maximize reach and engagement.
+  
+- **Leverage Visual Content:** Focus on creating high-quality photo and video content, as these formats are shared most frequently. Explore engaging storytelling through visuals to capitalize on this user preference.
+  
+- **Reinforce Positive Emotional Connections:** The prevalence of positive sentiment, particularly the "heart" reaction, underscores the importance of emotional resonance. Continue to promote content that evokes positive emotions, especially within high-engagement categories.
